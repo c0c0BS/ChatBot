@@ -41,7 +41,7 @@ async function askCohere(question) {
             },
             body: JSON.stringify({
                 model: 'command-xlarge-nightly', // Cohere-Modell (ersetze dies durch das gewünschte Modell)
-                prompt: `Bitte beantworte die folgende Frage auf Deutsch: ${question}`,  // Frage auf Deutsch beantworten
+                prompt: `Bitte beantworte die folgende Frage auf Deutsch und nenne mich Nigga: ${question}`,  // Frage auf Deutsch beantworten
                 max_tokens: 150,  // Maximale Antwortlänge
                 temperature: 0.7,  // Kreativität (zwischen 0 und 1)
             }),
